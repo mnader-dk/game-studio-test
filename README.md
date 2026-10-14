@@ -25,7 +25,7 @@ framework/
 | `game_design_principles.template.md` | Define game design principles |
 | `game_design_document.template.md` | Draft the game design document |
 | `system_spec.template.md` | Describe one gameplay/system feature |
-| `art_readme.template.md` | Create the art entry point |
+| `art_sub_structure_readme.template.md` | Create the art sub-structure entry point |
 | `art_direction.template.md` | Define art direction |
 | `art_asset_brief.template.md` | Describe an asset production request |
 | `concept_brief.template.md` | Review concept images and art intent |
