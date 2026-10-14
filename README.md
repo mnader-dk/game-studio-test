@@ -24,10 +24,8 @@ framework/
 | `game_concept.template.md` | Define the game concept |
 | `game_design_principles.template.md` | Define game design principles |
 | `game_design_document.template.md` | Draft the game design document |
-| `system_spec.template.md` | Describe one gameplay/system feature |
 | `art_sub_structure_readme.template.md` | Create the art sub-structure entry point |
 | `art_direction.template.md` | Define art direction |
-| `art_asset_brief.template.md` | Describe an asset production request |
 | `concept_brief.template.md` | Review concept images and art intent |
 | `traceability_matrix.template.md` | Track design-to-implementation coverage |
 
@@ -44,5 +42,5 @@ framework/
 ## Principles
 
 1. Keep shared framework docs free of game-specific lore.
-2. Store project-specific concepts, systems, art direction, versions, and validation under `projects/<project_id>/`.
+2. Store game-specific concepts, systems, art direction, versions, and validation under `game/`.
 3. Treat Markdown as the primary human review format.
