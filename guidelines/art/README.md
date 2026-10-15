@@ -26,6 +26,7 @@ guidelines/art/
   README.md
   core/
     concepts/
+      concept_brief.md
       images/
         concept_reference/
   factions/
@@ -61,6 +62,9 @@ or duplicate it.
   must not reduce a faction to a recolored rune type.
 
 ## Current Concept Reference
+
+The [Core Concept Brief](core/concepts/concept_brief.md) records the reference's purpose, limits,
+technical facts, review criteria, provenance, and review status.
 
 ![Rune Mastery concept overview](core/concepts/images/concept_reference/concept_overview_v001.png)
 
