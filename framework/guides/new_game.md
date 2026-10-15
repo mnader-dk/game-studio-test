@@ -28,6 +28,8 @@ guidelines/
   versions/
   work_items/
   decisions/
+output/
+  README.md
 ```
 
 ## 2. Start With Game Design
@@ -55,6 +57,9 @@ Recommended image stages:
 | `legacy` | Old references kept for history only |
 | `superseded_reference` | Rejected or replaced references |
 
-## 4. Keep Project Memory Updated
+## 4. Keep guidelines and production output seperated
+The `output/` directory should contain all produced assets, so there is a clean seperation between how it should look like and what is a ready asset.
+
+## 5. Keep Project Memory Updated
 
 The `decisions/` folder should summarize decisions so future agents do not need to reconstruct the project from chat history.
