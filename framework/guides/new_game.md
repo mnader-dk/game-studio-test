@@ -1,12 +1,12 @@
 # New Game Guide
 
-Use this guide when starting a new game under `game/`.
+Use this guide when starting a new game under `guidelines/`.
 
 
 ## 1. Create the Folder Structure
 
 ```text
-game/
+guidelines/
   README.md
   design/
   systems/
@@ -27,7 +27,7 @@ game/
   slices/
   versions/
   work_items/
-  project_memory/
+  decisions/
 ```
 
 ## 2. Start With Game Design
@@ -57,4 +57,4 @@ Recommended image stages:
 
 ## 4. Keep Project Memory Updated
 
-The `game_memory/` folder should summarize decisions so future agents do not need to reconstruct the project from chat history.
+The `decisions/` folder should summarize decisions so future agents do not need to reconstruct the project from chat history.
