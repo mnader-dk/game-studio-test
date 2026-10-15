@@ -57,8 +57,8 @@ Recommended image stages:
 | `legacy` | Old references kept for history only |
 | `superseded_reference` | Rejected or replaced references |
 
-## 4. Keep guidelines and production output seperated
-The `output/` directory should contain all produced assets, so there is a clean seperation between how it should look like and what is a ready asset.
+## 4. Keep guidelines and production output separated
+The `output/` directory should contain all produced assets, so there is a clean separation between how it should look like and what is a ready asset.
 
 ## 5. Keep Project Memory Updated
 

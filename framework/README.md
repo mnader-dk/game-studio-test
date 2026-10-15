@@ -31,7 +31,7 @@ framework/
 
 ## Image Generation Principles
 
-`create-game-assets` is used to help people review art direction quickly. Generated images are references, not final production assets.
+`create-game-assets` skill is used to help people review art direction quickly. Generated images are references, not final production assets.
 
 - Store generated images next to the category that uses them.
 - Do not collect every image under a single central `art/images/` directory.
@@ -42,5 +42,5 @@ framework/
 ## Principles
 
 1. Keep shared framework docs free of game-specific lore.
-2. Store game-specific concepts, systems, art direction, versions, and validation under `game/`.
+2. Store game-specific concepts, systems, art direction, versions, and validation under `guidelines/`.
 3. Treat Markdown as the primary human review format.
