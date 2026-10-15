@@ -31,7 +31,7 @@ framework/
 
 ## Image Generation Principles
 
-`imagegen` is used to help people review art direction quickly. Generated images are references, not final production assets.
+`create-game-assets` is used to help people review art direction quickly. Generated images are references, not final production assets.
 
 - Store generated images next to the category that uses them.
 - Do not collect every image under a single central `art/images/` directory.
