@@ -6,9 +6,9 @@ This guide explains how generated images are used inside art documents.
 
 Generated images help users and agents align on visual direction before production assets are made. They are not final game assets by default.
 
-## Folder Convention
+## Directory Convention
 
-Use category-local image folders:
+Use category-local image directories:
 
 ```text
 art/
@@ -25,7 +25,7 @@ art/
 1. Write the design or art document first.
 2. Identify where a visual reference would make review easier.
 3. Generate the image with the internal image-generation workflow.
-4. Save the result under the relevant category and stage folder.
+4. Save the result under the relevant category and stage directory.
 5. Link the image from the Markdown document.
 6. Record the image purpose, review status, and revision notes.
 

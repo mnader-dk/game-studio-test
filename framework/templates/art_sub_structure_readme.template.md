@@ -1,8 +1,8 @@
 # Art Sub-Structure
 
-This folder owns art direction, visual references, asset briefs, art reviews, and art work items for this game.
+This directory owns art direction, visual references, asset briefs, art reviews, and art work items for this game.
 
-## Folder Map
+## Directory Map
 
 ```text
 art/

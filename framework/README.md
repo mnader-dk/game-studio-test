@@ -4,7 +4,7 @@ The `framework/` directory contains reusable rules, templates, schemas, and guid
 
 ## Role
 
-- Define the baseline game folder structure.
+- Define the baseline game directory structure.
 - Provide Markdown templates for human-reviewed game production documents.
 - Provide image-generation workflow guidance for concept review.
 - Explain the recommended order for building a project from concept to playable slice.
@@ -34,7 +34,7 @@ framework/
 `imagegen` is used to help people review art direction quickly. Generated images are references, not final production assets.
 
 - Store generated images next to the category that uses them.
-- Do not collect every image under a single central `art/images/` folder.
+- Do not collect every image under a single central `art/images/` directory.
 - Example paths: `art/gameplay_objects/images/modeling_reference/`, `art/characters/images/concept_reference/`.
 - Do not expose raw image-generation prompts in user-facing review documents.
 - Record the image, purpose, decision, and revision notes instead.

@@ -3,7 +3,7 @@
 Use this guide when starting a new game under `guidelines/`.
 
 
-## 1. Create the Folder Structure
+## 1. Create the Directory Structure
 
 ```text
 guidelines/
@@ -45,7 +45,7 @@ Do not start from isolated assets. Start from the game promise, player goal, cor
 
 ## 3. Add the Art Sub-Structure
 
-The game art folder should explain how art direction, concept references, modeling references, and asset briefs are managed.
+The game art directory should explain how art direction, concept references, modeling references, and asset briefs are managed.
 
 Recommended image stages:
 
@@ -62,4 +62,4 @@ The `output/` directory should contain all produced assets, so there is a clean 
 
 ## 5. Keep Project Memory Updated
 
-The `decisions/` folder should summarize decisions so future agents do not need to reconstruct the project from chat history.
+The `decisions/` directory should summarize decisions so future agents do not need to reconstruct the project from chat history.
