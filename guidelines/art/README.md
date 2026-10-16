@@ -68,7 +68,8 @@ or duplicate it.
 
 ## Current Concept References
 
-The [Core Concept Brief](core/concepts/concept_brief.md) and
+The [Core Concept Brief](core/concepts/concept_brief.md),
+[Environment Concept](core/environment/environment_concept.md), and
 [Animation and VFX Direction](core/animation_vfx/animation_vfx_direction.md) record each
 reference's purpose, limits, technical facts, review criteria, provenance, and review status.
 
@@ -77,6 +78,7 @@ reference's purpose, limits, technical facts, review criteria, provenance, and r
 | Image | Purpose | Status |
 |---|---|---|
 | `core/concepts/images/concept_reference/concept_overview_v001.png` | Review the overall fantasy tone, elemental rune identities, card-game context, and broad material direction together | Concept reference |
+| `core/environment/images/concept_reference/environment_overview_v001.png` | Review shared architectural massing, world materials, landscape depth, natural balance, lighting, crop tolerance, and localized environmental magic together | Concept reference |
 | `core/animation_vfx/images/concept_reference/animation_vfx_overview_v001.png` | Review Fire, Air, and Forest effect-source clarity, directional flow, particle restraint, local lighting, and shared material weight together | Concept reference |
 
 These images support discussion and comparison. Their presence does not approve every depicted
