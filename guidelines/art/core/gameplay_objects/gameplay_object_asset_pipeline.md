@@ -10,9 +10,6 @@ families and gameplay objects owned by each kit. The inventory provides shared s
 kit briefs, production packages, manifests, and validation without prescribing an engine or
 implementation technology.
 
-Faction-specific identities, artwork, and production assets are out of scope. They belong to a
-separate faction production pipeline.
-
 ## Sources
 
 - Production strategy: `../production/art_production_strategy.md`
@@ -28,6 +25,16 @@ separate faction production pipeline.
 - Gameplay objects reference: `../images/concept_reference/core_objects_v001.png`
 - Environment reference: `../environment/images/concept_reference/environment_overview_v001.png`
 - Animation VFX reference: `../animation_vfx/images/concept_reference/animation_vfx_overview_v001.png`
+
+## Pipeline Output
+
+Every gameplay object will be created underneath the `../../../../output` directory. The structure will be 
+```text
+output
+├── <kit>
+│   └── <family>
+        └── <gameplay_object>
+```
 
 ## Gameplay Object Kit Tree
 
