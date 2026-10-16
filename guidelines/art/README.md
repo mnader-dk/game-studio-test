@@ -25,8 +25,11 @@ instead of copying that rule here.
 guidelines/art/
   README.md
   core/
+    direction/
     concepts/
-      concept_brief.md
+      images/
+        concept_reference/
+    environment/
       images/
         concept_reference/
   factions/
@@ -41,7 +44,9 @@ guidelines/art/
 | Directory | Responsibility |
 |---|---|
 | `core/` | Shared visual foundations and references that apply across Rune Mastery |
+| `core/direction/` | Shared rendering, shape, color, material, lighting, detail, camera, and motion language |
 | `core/concepts/` | Cross-game concept briefs and overview references |
+| `core/environment/` | Shared world-foundation, architecture, nature, atmosphere, and environmental-magic guidance |
 | `factions/` | Entry point for faction-specific visual guidance |
 | `factions/<faction>/` | Visual rules and references unique to one faction |
 

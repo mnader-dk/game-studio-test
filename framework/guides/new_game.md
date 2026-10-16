@@ -19,8 +19,6 @@ guidelines/
     environment/
     animation_vfx/
     production/
-    reviews/
-    work_items/
   ux/
   qa/
   production/
