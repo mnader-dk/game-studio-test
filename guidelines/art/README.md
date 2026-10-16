@@ -66,19 +66,21 @@ or duplicate it.
 - Rune affinity and faction identity remain distinct. Faction art may draw from an affinity but
   must not reduce a faction to a recolored rune type.
 
-## Current Concept Reference
+## Current Concept References
 
-The [Core Concept Brief](core/concepts/concept_brief.md) records the reference's purpose, limits,
-technical facts, review criteria, provenance, and review status.
+The [Core Concept Brief](core/concepts/concept_brief.md) and
+[Animation and VFX Direction](core/animation_vfx/animation_vfx_direction.md) record each
+reference's purpose, limits, technical facts, review criteria, provenance, and review status.
 
 ![Rune Mastery concept overview](core/concepts/images/concept_reference/concept_overview_v001.png)
 
 | Image | Purpose | Status |
 |---|---|---|
 | `core/concepts/images/concept_reference/concept_overview_v001.png` | Review the overall fantasy tone, elemental rune identities, card-game context, and broad material direction together | Concept reference |
+| `core/animation_vfx/images/concept_reference/animation_vfx_overview_v001.png` | Review Fire, Air, and Forest effect-source clarity, directional flow, particle restraint, local lighting, and shared material weight together | Concept reference |
 
-This image supports discussion and comparison. Its presence does not approve every depicted
-character, environment, component, composition, or production detail.
+These images support discussion and comparison. Their presence does not approve every depicted
+character, environment, component, composition, effect, or production detail.
 
 ## Image Stages
 
