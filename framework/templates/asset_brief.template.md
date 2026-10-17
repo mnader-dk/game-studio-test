@@ -1,123 +1,55 @@
 ---
 title: Asset Brief Template
-status: Template
-summary: Concrete requirements for one visual asset family.
+summary: Essential visual and technical requirements for one asset family.
 ---
 
 # Asset Brief
 
 ## Purpose
 
-Complete this brief before producing an asset family. Use the shared constraints in the project
-[Art Production Strategy](../../guidelines/art/core/production/art_production_strategy.md), then
-record the exact values required for this family.
+Define the visual form, required variants, runtime outputs, and technical construction of one asset
+family. Use exact values or `Not Applicable — <reason>`.
 
-Every production-frame row below must contain a concrete value or `Not Applicable — <reason>`.
-Keep realized file inventories, checksums, import results, and revision history in the asset
-manifest or package record.
+## Definition
 
-## Identity and Authorities
-
-| Field | Entry |
+| Field | Requirement |
 |---|---|
-| Brief ID | `<stable identifier>` |
-| Asset family | `<name>` |
-| Owner | `<person or discipline>` |
-| Priority and status | `<P0–P3; Draft, Candidate, Approved, or Production-ready>` |
-| Product requirement | `<document or requirement ID>` |
-| Art direction | `<shared and subject-specific documents>` |
-| Production profile | `<strategy section and applicable family baseline>` |
-| Runtime target | `<client, scene, component, or technical specification>` |
-| Related manifest | `<path or planned location>` |
-
-## Scope
-
-- **Gameplay or presentation role:** `<responsibility>`
-- **Player-facing outcome:** `<what must be understood or felt>`
-- **Required contexts:** `<screens, scenes, backgrounds, and neighboring content>`
-- **Included:** `<assets, variants, states, and evidence>`
-- **Excluded:** `<related work owned elsewhere>`
+| Asset ID and family | `<stable ID and name>` |
+| Role and player-facing outcome | `<responsibility and what must be understood or felt>` |
+| Target contexts | `<screens, scenes, viewports, backgrounds, camera, and neighboring content>` |
+| Scope | `<included assets, states, variants, and explicit exclusions>` |
+| Dependencies | `<required assets, systems, or specifications>` |
 
 ## Deliverables
 
-| Asset or group | Purpose | Required states or variants | Source and runtime outputs |
+| Asset or group | Required states or variants | Source master | Runtime outputs |
 |---|---|---|---|
-| `<asset>` | `<role>` | `<states or variants>` | `<master plus exact export set>` |
+| `<asset>` | `<set>` | `<dimensions, format, and layers>` | `<sizes, formats, and variants>` |
 
-## Production Frame
+## Visual Contract
 
-| Constraint | Shared baseline | Concrete requirement for this family |
-|---|---|---|
-| Target viewports | `<applicable strategy viewports>` | `<exact viewports and contexts>` |
-| Native display sizes | `<applicable size tier or family>` | `<exact pixel sizes>` |
-| Master or source size | `<applicable family baseline>` | `<exact dimensions>` |
-| Runtime exports | `<applicable export ladder>` | `<exact dimensions and variants>` |
-| Aspect and responsive behavior | `<crop, reframe, fixed aspect, or scalable rule>` | `<exact behavior>` |
-| Canvas and content bounds | `<shared-canvas rule>` | `<canvas and visible bounds>` |
-| Safe area and padding | `<strategy rule>` | `<exact insets or bounds>` |
-| `4 px` grid | `Required for author-controlled layout geometry` | `<component dimensions, spacing, padding, insets, offsets, and any permitted exceptions>` |
-| Pivot, anchor, and orientation | `<family default>` | `<exact coordinates and facing>` |
-| Source and runtime formats | `<project or family baseline>` | `<formats and bit depth>` |
-| Alpha and masks | `<project or family baseline>` | `<transparent, opaque, premultiplication, and masks>` |
-| Color space | `<project or runtime baseline>` | `<exact color space>` |
-| Scaling and slicing | `<uniform, nine-slice, fixed-piece, tile, or none>` | `<insets and protected geometry>` |
-| Filtering, mipmaps, and compression | `<runtime baseline>` | `<exact import requirements>` |
-| Layers and assembly | `<strategy layer rule>` | `<independent groups and order>` |
-| Performance limits | `<target profile>` | `<texture, geometry, material, particle, or overdraw limits>` |
-
-Any deviation from the shared baseline requires a recorded reason and approval:
-
-- **Deviation:** `<none or exact difference>`
-- **Reason:** `<why the baseline cannot satisfy the asset>`
-- **Approver:** `<name or role>`
-
-## References and Visual Requirements
-
-| Topic | Requirement |
+| Field | Requirement |
 |---|---|
-| Reference assets | `<paths or stable IDs and the properties each reference controls>` |
-| Visual goal | `<intended result and reading order>` |
-| Shape and silhouette | `<forms that must remain readable at the smallest native size>` |
-| Color, material, and lighting | `<palette roles and surface treatment>` |
-| Camera and composition | `<view, facing, framing, and focal-safe regions>` |
-| Identity locks | `<symbols, geometry, proportions, or details that may not change>` |
-| Avoid | `<conflicting styles, meanings, or baked-in dynamic content>` |
+| Shape and readability | `<silhouette, proportions, focal detail, and smallest-size read>` |
+| Color, material, and lighting | `<palette roles, surfaces, light direction, and contrast>` |
+| View and composition | `<camera, facing, framing, safe regions, and responsive behavior>` |
+| Fixed elements | `<symbols, geometry, proportions, or details that may not change>` |
+| Avoid | `<style drift, misleading meaning, and baked-in dynamic content>` |
 
-## States and Motion
+## Technical Contract
 
-| State or event | Meaning | Required non-color cue | Motion or VFX | Interruption result | Reduced-motion equivalent |
-|---|---|---|---|---|---|
-| `<state or trigger>` | `<player-facing meaning>` | `<shape, value, symbol, or structure>` | `<behavior or none>` | `<correct final state>` | `<equivalent or not applicable>` |
-
-## Source and Rights
-
-| Field | Record |
+| Field | Requirement |
 |---|---|
-| Source and creator | `<authored, generated, purchased, or derived; creator or tool>` |
-| Source record | `<URL, repository path, order, or generation record>` |
-| Date | `<YYYY-MM-DD>` |
-| License and restrictions | `<commercial use, modification, attribution, and redistribution terms>` |
+| Canvas and layout | `<dimensions, bounds, safe area, padding, grid, pivot, anchor, and orientation>` |
+| Files and rendering | `<formats, bit depth, color space, alpha, masks, filtering, mipmaps, and compression>` |
+| Scaling and assembly | `<uniform scale, crop, slicing, tiling, layers, and assembly order>` |
+| Motion and accessibility | `<animation groups, interruption result, reduced motion, contrast, and non-color cues>` |
+| Platforms and performance | `<runtime targets and texture, geometry, material, particle, memory, or overdraw limits>` |
 
-## Acceptance
+## States and Events
 
-Use `Pass`, `Fail`, `Not Assessed`, or `Not Applicable`.
+Use this table only when the family has visual states, variants, or events.
 
-| Gate | Result | Evidence |
-|---|---|---|
-| Scope and exact deliverables are complete | `Not Assessed` | `<link>` |
-| Strategy baselines are applied or approved deviations are recorded | `Not Assessed` | `<brief section>` |
-| Visual identity reads at every required native size and background | `Not Assessed` | `<contact sheet or comparison>` |
-| Required states remain clear without color, motion, or sound alone | `Not Assessed` | `<state review>` |
-| Canvas, `4 px` grid, bounds, padding, alpha, pivot, layers, and exports match this brief | `Not Assessed` | `<technical report>` |
-| Motion, interruption, and reduced-motion behavior work as specified | `Not Assessed` | `<capture or not-applicable reason>` |
-| Required viewport, runtime, and performance checks pass | `Not Assessed` | `<in-engine evidence>` |
-| Source and usage rights are recorded and compatible with the project | `Not Assessed` | `<record>` |
-
-## Approval
-
-| Field | Record |
-|---|---|
-| Decision | `<Approved, Revision required, or Rejected>` |
-| Reviewed asset or revision | `<path, version, or manifest>` |
-| Reviewer and date | `<name or role, YYYY-MM-DD>` |
-| Conditions | `<remaining conditions or none>` |
+| State or event | Meaning | Required presentation and non-color cue | Motion or VFX | Final and reduced-motion result |
+|---|---|---|---|---|
+| `<name>` | `<player-facing meaning>` | `<construction, shape, value, symbol, or label>` | `<behavior or none>` | `<deterministic result>` |
