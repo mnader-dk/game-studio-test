@@ -36,6 +36,19 @@ output
         └── <gameplay_object>
 ```
 
+## Kit Brief Structure
+
+Each family is described by one brief. Stable gameplay-object IDs are defined inside that brief
+and do not require separate guideline subdirectories.
+
+```text
+gameplay_objects
+└── kits
+    └── <kit>
+        └── <family>
+            └── asset_brief_<family>.md
+```
+
 ## Gameplay Object Kit Tree
 
 ```text
