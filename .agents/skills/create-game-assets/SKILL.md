@@ -13,32 +13,40 @@ one production tool inside a controlled pipeline, never as proof that an asset i
 1. **Inspect before inventing.** Find existing screenshots, concept art, sprites, models, fonts,
    import settings, camera framing, target resolution, and naming conventions. Preserve a coherent
    existing direction unless the user asks for a redesign.
-2. **Lock the technical frame.** Record engine, 2D/3D, camera/view, native display size, asset
+2. **Follow the gameplay-object production pipeline.** Before creating gameplay-object output,
+   read [`gameplay_object_asset_pipeline.md`](../../../guidelines/art/core/gameplay_objects/gameplay_object_asset_pipeline.md).
+   Treat its kit tree and output contract as authoritative for scope, stable IDs, naming, and
+   folder placement. Read the source and reference documents relevant to the current family and
+   respect the status and limits recorded by their owning documents. Resolve their relative links
+   from the pipeline document, not from this skill. If a requested family is missing from the
+   inventory or conflicts with it, update or clarify the pipeline before inventing another ID or
+   output path.
+3. **Lock the technical frame.** Record engine, 2D/3D, camera/view, native display size, asset
    dimensions, world scale, transparency, palette, filtering, animation frames, texture budget,
    and target platforms. Use `assets/art-direction-brief.md` as a copyable brief.
-3. **Name the visual system.** Define shape language, silhouette priorities, value structure,
+4. **Name the visual system.** Define shape language, silhouette priorities, value structure,
    palette roles, materials, lighting, detail density, edge treatment, and motion character. Use
    concrete visual properties; do not substitute a living artist's name for an art direction.
-4. **Make an asset manifest.** Copy `assets/asset-manifest.json`, then list every required asset,
+5. **Make an asset manifest.** Copy `assets/asset-manifest.json`, then list every required asset,
    state, variant, size, pivot, collision role, source, license, and approval status. Separate
    production assets from disposable greybox placeholders.
-5. **Approve one visual target.** Create or select a representative hero asset or small style
+6. **Approve one visual target.** Create or select a representative hero asset or small style
    board before producing a full set. Judge it at actual game scale and against a gameplay
    background. If the user delegated the choice, pick the strongest viable direction and record
    the decision instead of blocking.
-6. **Produce related assets as families.** Reuse the approved target as an edit/reference input.
+7. **Produce related assets as families.** Reuse the approved target as an edit/reference input.
    Keep palette, view, proportions, lighting, outline, and texture density invariant. Generate
    small coherent batches; avoid unrelated one-off prompts that drift.
-7. **Normalize deterministically.** Crop, size, anchor, slice, name, compress, and check alpha with
+8. **Normalize deterministically.** Crop, size, anchor, slice, name, compress, and check alpha with
    ordinary image/DCC tools. Never trust generated grids, transparency, seams, pivots, topology,
    or dimensions without inspection. Use the bundled scripts for raster QA and contact sheets.
-8. **Import with engine-native settings.** Set filtering, mipmaps, pixels-per-unit/world scale,
+9. **Import with engine-native settings.** Set filtering, mipmaps, pixels-per-unit/world scale,
    color space, compression, sprite slicing, texture types, materials, and collision deliberately.
    Read the relevant engine skill before editing engine files.
-9. **Validate in context.** Inspect a contact sheet and the actual game at native resolution.
+10. **Validate in context.** Inspect a contact sheet and the actual game at native resolution.
    Check silhouette, scale, animation stability, seams, legibility, palette, collision fit, memory,
    and compression artifacts. Iterate on the source asset, not only on runtime compensations.
-10. **Record provenance.** Keep the source URL/tool, license or generation note, edit history, and
+11. **Record provenance.** Keep the source URL/tool, license or generation note, edit history, and
     restrictions beside the manifest. Preserve embedded provenance metadata when the pipeline can.
 
 ## Choose the production path
