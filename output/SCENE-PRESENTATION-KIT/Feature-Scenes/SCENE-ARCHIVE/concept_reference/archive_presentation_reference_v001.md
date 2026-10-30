@@ -1,6 +1,6 @@
 # Archive Presentation Reference v001
 
-- **Asset ID:** `SCENE-SHRINE`
+- **Asset ID:** `SCENE-ARCHIVE`
 - **Status:** Candidate concept reference; not a production-ready runtime asset
 - **Created:** 2026-10-30
 - **Generation mode:** Built-in ImageGen with reference-guided generation and constrained viewpoint edits
