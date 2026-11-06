@@ -1,6 +1,7 @@
 ---
 title: Rune Mastery Feature Scenes Asset Brief
-status: Draft
+status: Approved
+approved: 2026-11-06
 summary: Visual and technical production contract for feature-scene asset packages, beginning with the Home scene.
 ---
 
